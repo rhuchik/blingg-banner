@@ -5,7 +5,7 @@ const fileupload=require('express-fileupload')
 const cors=require('cors')
 const mongoose=require('mongoose')
 try{
-    mongoose.connect('mongodb+srv://rhu123:qwe123@cluster0.wgjzu.mongodb.net/banner?retryWrites=true&w=majority')
+    mongoose.connect('mongodb+srv://rhu123:<password>@cluster0.wgjzu.mongodb.net/banner?retryWrites=true&w=majority')
     console.log('db connected')
 }
 catch(err){
